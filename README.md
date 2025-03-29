@@ -16,7 +16,7 @@ Designed with FIGMA <br />
 
 ## Node.js
 
-Rebecca's Portfolio Website runs on Node.js Version 20.10.0 and higher. Please ensure you have Node.js installed via the [official website](https://nodejs.org/en).
+Study Space runs on Node.js Version 20.10.0 and higher. Please ensure you have Node.js installed via the [official website](https://nodejs.org/en).
 
 ## Next.js
 
