@@ -50,6 +50,9 @@ module.exports = {
           "ss-cyan": "#8DC6DA",
         },
       },
+      fontFamily: {
+        afacad: ["Afacad", "sans-serif"], // Add the font family here
+      },
     },
   },
 

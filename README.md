@@ -51,6 +51,7 @@ npm un <dependency>
 # Open a browser at localhost:3000
 npm run dev
 ```
+
 ### Formatting Code via Prettier
 
 ```bash
