@@ -9,16 +9,16 @@ type FoodItem = {
 };
 
 const originalFoodItems: FoodItem[] = [
-  { name: "Pizza", image: "/icons8-pizza-70.png", isVitaminD: false },
-  { name: "Salmon", image: "/icons8-salmon-70.png", isVitaminD: true },
-  { name: "Eggs", image: "/icons8-eggs-70.png", isVitaminD: true },
-  { name: "Chocolate", image: "/icons8-chocolate-69.png", isVitaminD: false },
-  { name: "Mushrooms", image: "/icons8-mushrooms-70.png", isVitaminD: true },
-  { name: "Fortified Milk", image: "/icons8-milk-70.png", isVitaminD: true },
-  { name: "Ice Cream", image: "/icons8-ice-cream-70.png", isVitaminD: false },
+  { name: "Pizza", image: "icons8-pizza-70.png", isVitaminD: false },
+  { name: "Salmon", image: "icons8-salmon-70.png", isVitaminD: true },
+  { name: "Eggs", image: "icons8-eggs-70.png", isVitaminD: true },
+  { name: "Chocolate", image: "icons8-chocolate-69.png", isVitaminD: false },
+  { name: "Mushrooms", image: "icons8-mushrooms-70.png", isVitaminD: true },
+  { name: "Fortified Milk", image: "icons8-milk-70.png", isVitaminD: true },
+  { name: "Ice Cream", image: "icons8-ice-cream-70.png", isVitaminD: false },
   {
     name: "Fortified Cereal",
-    image: "/icons8-cereal-70.png",
+    image: "icons8-cereal-70.png",
     isVitaminD: true,
   },
 ];
