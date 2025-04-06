@@ -9,12 +9,19 @@ const Treatment = () => {
       <div className="flex flex-row gap-5">
         <div className="max-w-md rounded-xl border-2 border-blue-950 bg-cyan-200 p-2 shadow-md">
           <p className="rounded-lg p-4 font-afacad text-xl text-black">
-            Vitamin D Supplements: Work with your healthcare provider to find
-            out if you need a vitamin supplement and how much to take, if
-            needed. You can often obtain vitamin D3 supplements
-            over-the-counter, but for severe deficiencies, a doctor may
-            prescribe higher doses of vitamin D2.
+            Vitamin D Supplements:
           </p>
+          <ul className="list-disc rounded-lg p-4 font-afacad text-xl text-black">
+            <li>
+              Work with your healthcare provider to find out if you need a
+              vitamin supplement and how much to take, if needed.{" "}
+            </li>
+            <li>
+              You can often obtain vitamin D3 supplements over-the-counter, but
+              for severe deficiencies, a doctor may prescribe higher doses of
+              vitamin D2.
+            </li>
+          </ul>
         </div>
         <div className="max-w-md rounded-xl border-2 border-blue-950 bg-cyan-200 p-2 shadow-md">
           <p className="rounded-lg p-4 font-afacad text-xl text-black">

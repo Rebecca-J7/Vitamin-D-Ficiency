@@ -10,7 +10,9 @@ const Activities = () => {
       </p>
       <div className="flex flex-row gap-16">
         <Weather />
-        <NutritionAct />
+        <div className="relative top-10">
+          <NutritionAct />
+        </div>
       </div>
     </div>
   );
