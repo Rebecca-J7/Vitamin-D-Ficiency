@@ -2,25 +2,15 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="absolute left-52 top-[4150px]">
+    <div className="absolute top-[3900px] h-[100px] w-screen bg-cyan-700">
       <div className="flex flex-col gap-3">
-        <div className="text-web-purple-2 flex flex-row gap-7 text-xs">
-          <Link href="mailto:rjennings0007@gmail.com">
-            <p>email</p>
-          </Link>
-          <Link href="https://www.linkedin.com/in/rebecca-jennings-246a652a1/">
-            <p>linkedin</p>
-          </Link>
+        <div className="relative left-14 flex flex-row gap-7 text-xs text-white">
           <Link href="https://github.com/Rebecca-J7">
             <p>github</p>
           </Link>
-          <Link href="/CS Resume.pdf">
-            <p>resume</p>
-          </Link>
         </div>
-        <p className="text-web-purple-2 text-xs">
-          © {new Date().getFullYear()} Rebecca's Portfolio. All rights
-          reserved.
+        <p className="relative left-14 text-xs text-white">
+          © {new Date().getFullYear()} Vitamin-D-ficiency. All rights reserved.
         </p>
       </div>
     </div>

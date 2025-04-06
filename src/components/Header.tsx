@@ -14,29 +14,56 @@ const Header = () => {
   };
 
   return (
-    <div className="fixed top-0 z-50 h-14 w-full bg-web-ss-blue opacity-75">
-      <div className="relative flex flex-row content-center gap-5 font-afacad text-xl font-semibold">
-        <div
-          className="absolute left-7 top-3 h-9 w-9 rounded-full bg-white"
+    <div className="fixed top-0 z-50 h-14 w-full bg-cyan-400">
+      <div className="flex flex-row content-center gap-5 font-afacad text-xl font-semibold">
+        <img
+          src="icons8-vitamin-70.png"
+          className="absolute left-6 top-2 h-10 w-10 object-cover"
+        />
+        <p
+          className="absolute left-20 top-4 cursor-pointer scroll-mt-14 text-blue-950 hover:text-white"
           onClick={() => scrollToSection("welcome")}
-        ></div>
-        <p
-          className="text-web-purple-2 absolute left-20 top-4 cursor-pointer scroll-mt-14 hover:text-white"
-          onClick={() => scrollToSection("introduction")}
         >
-          Study Space
+          Vitamin D-ficieny
+        </p>
+      </div>
+
+      <div className="absolute right-10 top-4 flex flex-row content-center gap-4 font-afacad text-xl font-semibold">
+        <p
+          className="cursor-pointer scroll-mt-14 text-blue-950 hover:text-white"
+          onClick={() => scrollToSection("overview")}
+        >
+          Overview
         </p>
         <p
-          className="absolute right-40 top-4 cursor-pointer scroll-mt-14 text-black hover:text-white"
-          onClick={() => scrollToSection("about")}
+          className="cursor-pointer scroll-mt-14 text-blue-950 hover:text-white"
+          onClick={() => scrollToSection("symptoms/causes")}
         >
-          about
+          Causes & Symptoms
         </p>
         <p
-          className="absolute right-14 top-4 cursor-pointer scroll-mt-14 text-black hover:text-white"
-          onClick={() => scrollToSection("skills")}
+          className="cursor-pointer scroll-mt-14 text-blue-950 hover:text-white"
+          onClick={() => scrollToSection("treatment")}
         >
-          pomodoro
+          Treatment
+        </p>
+        <p
+          className="cursor-pointer scroll-mt-14 text-blue-950 hover:text-white"
+          onClick={() => scrollToSection("kit")}
+        >
+          Vitamin-D-Ficiency Kit
+        </p>
+        <p
+          className="cursor-pointer scroll-mt-14 text-blue-950 hover:text-white"
+          onClick={() => scrollToSection("activities")}
+        >
+          Activities
+        </p>
+        <p
+          className="cursor-pointer scroll-mt-14 text-blue-950 hover:text-white"
+          onClick={() => scrollToSection("resources")}
+        >
+          Resources
         </p>
       </div>
     </div>

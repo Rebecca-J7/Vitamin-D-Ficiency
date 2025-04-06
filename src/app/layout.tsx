@@ -1,9 +1,9 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "study-space",
+  title: "vitamin-d-ficiency",
   description:
-    "A website that encourages focus and motivation for producitvity using the pomodoro method",
+    "Website dedicated to support users in recovering from vitamin D deficiency",
 };
 
 export default function RootLayout({
@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="flex h-screen flex-col bg-blue-950">{children}</body>
+      <body className="bg-linear-to-r flex h-screen flex-col">{children}</body>
     </html>
   );
 }
